@@ -1,0 +1,40 @@
+.shower .caption p {
+  margin-top: .5em;
+}
+.shower .caption h2 {
+  color: #453688;
+  font-size: .695em;
+  margin-bottom: 1em;
+}
+p.venue {
+  font-style: italic;
+  margin-bottom: 1em;
+}
+
+.shower .slide.title h3 {
+  font-weight: normal;
+  font-size: 1.39em;
+  margin: -2em 0 1.66em;
+}
+
+cite {
+  font-style: italic;
+}
+
+.slide figure.cover.width.margin > :first-child {
+  width: 88%
+}
+.slide h2 + figure.cover.margin > :first-child {
+  margin-top: 2em;
+}
+.slide h2 + figure.cover.height.margin > :first-child {
+  height: 66%;
+}
+
+.slide h3 {
+  margin-bottom: 0;
+}
+
+.slide q {
+  font-style: italic;
+}
