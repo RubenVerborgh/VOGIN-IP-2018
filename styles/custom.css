@@ -46,3 +46,18 @@ cite {
   line-height: 1.5;
   margin-top: 3em;
 }
+
+.slide.paradigm {
+  border-left: 40px solid #453688;
+}
+
+.slide.paradigm h2 {
+  font-size: 2em;
+  line-height: 1.2;
+  margin-top: 3.25em;
+  font-weight: normal;
+}
+
+.slide.paradigm h2 em {
+  font-weight: bold;
+}
