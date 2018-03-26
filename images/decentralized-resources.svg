@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="640" height="300">
+<style>
+text {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+}
+</style>
+<text x="262" y="256.5">$357.45</text>
+<text x="500.5" y="72.5">$218.34</text>
+
+<circle fill="#3D2C70" cx="58.33" cy="55.67" r="27.33"/>
+<circle fill="#3D2C70" cx="30" cy="271.67" r="27.33"/>
+<circle fill="#3D2C70" cx="136.58" cy="129.67" r="27.33"/>
+<circle fill="#D76016" cx="228.67" cy="250.81" r="27.33"/>
+<circle fill="#3D2C70" cx="545.91" cy="239" r="27.33"/>
+<circle fill="#3D2C70" cx="297.25" cy="31.67" r="27.33"/>
+<circle fill="#3D2C70" cx="382.58" cy="184.33" r="27.33"/>
+<circle fill="#3D2C70" cx="467.25" cy="68" r="27.33"/>
+<circle fill="#3D2C70" cx="607.91" cy="122.67" r="27.33"/>
+</svg>
