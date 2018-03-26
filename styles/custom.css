@@ -25,7 +25,7 @@ p.venue {
 }
 
 .slide.toc h2 {
-  font-size: 1.04em;
+  display: none;
 }
 
 #funding {
