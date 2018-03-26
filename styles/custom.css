@@ -41,7 +41,8 @@ p.venue {
   text-align: center;
   text-transform: uppercase;
   font-style: italic;
-  margin-top: 2em;
+  margin: 1.5em auto;
+  width: 7em;
 }
 
 dt {
