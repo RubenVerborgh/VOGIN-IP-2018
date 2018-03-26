@@ -1,25 +1,9 @@
 .shower .caption p {
   margin-top: .5em;
 }
-.shower .caption h2 {
-  color: #453688;
-  font-size: .695em;
-  margin-bottom: 1em;
-  line-height: 1;
-}
 p.venue {
   font-style: italic;
   margin-bottom: 1em;
-}
-
-.shower .slide.title h3 {
-  font-weight: normal;
-  font-size: 1.39em;
-  margin: -2em 0 1.66em;
-}
-
-cite {
-  font-style: italic;
 }
 
 .slide figure.cover.width.margin > :first-child {
@@ -38,27 +22,4 @@ cite {
 
 .slide q {
   font-style: italic;
-}
-
-#decentralization p {
-  color: #453688;
-  font-size: 1.5em;
-  font-weight: bold;
-  line-height: 1.5;
-  margin-top: 3em;
-}
-
-.slide.paradigm {
-  border-left: 40px solid #453688;
-}
-
-.slide.paradigm h2 {
-  font-size: 2em;
-  line-height: 1.2;
-  margin-top: 3.25em;
-  font-weight: normal;
-}
-
-.slide.paradigm h2 em {
-  font-weight: bold;
 }
