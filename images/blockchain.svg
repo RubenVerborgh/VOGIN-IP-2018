@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="640" height="300">
+<style>
+text {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+}
+line {
+  stroke: #3D2C70;
+  stroke-width: 2px;
+}
+</style>
+<line x1="76.68" y1="150" x2="109.67" y2="150"/>
+<line x1="186.34" y1="150" x2="231" y2="150"/>
+<line x1="454.33" y1="150" x2="498.99" y2="150"/>
+<line x1="564.68" y1="151" x2="609.33" y2="151"/>
+<rect y="117" fill="#3D2C70" width="76.68" height="66"/>
+<rect x="488" y="118" fill="#3D2C70" width="76.68" height="66"/>
+<rect x="109.67" y="117" fill="#3D2C70" width="76.68" height="66"/>
+<rect x="231" y="94.67" fill="none" stroke="#3D2C70" stroke-width="2" width="111.67" height="110.67"/>
+<rect x="343" y="139.67" fill="none" stroke="#3D2C70" stroke-width="2" width="111.33" height="65.67"/>
+<rect x="343" y="94.67" fill="none" stroke="#3D2C70" stroke-width="2" width="111.33" height="45"/>
+<text fill="#3D2C70" transform="matrix(1 0 0 1 265 146)" style="font-weight: bold"><tspan>list of </tspan><tspan x="-26.03" y="19.2">transactions</tspan></text>
+<text fill="#3D2C70" transform="matrix(1 0 0 1 619 152)" style="font-weight: bold">…</text>
+<text fill="#8B80A9" transform="matrix(1 0 0 1 365 158)"><tspan>expensive </tspan><tspan x="-11.1" y="19.2">computation </tspan><tspan x="-1.97" y="38.4">over block</tspan></text>
+<text fill="#8B80A9" transform="matrix(1 0 0 1 369 113)"><tspan>previous </tspan><tspan x="1.76" y="19.2">block ID</tspan></text>
+</svg>

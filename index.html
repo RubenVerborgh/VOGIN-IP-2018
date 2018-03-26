@@ -163,7 +163,7 @@
       <dd class="next">a shared, replicated ledger</dd>
       <dt>blockchain</dt>
       <dd class="next">a specific type of distributed ledger</dd>
-      <dt>BitCoin</dt>
+      <dt>Bitcoin</dt>
       <dd class="next">a specific type of blockchain</dd>
     </dl>
   </div>
@@ -366,13 +366,58 @@
         <ul class="next">
           <li>
             Voting for blocks with incorrect transactions<br>
-            is less rewarding than voting for correct blocks.
+            is less rewarding than voting for valid blocks.
           </li>
         </ul>
       </li>
       <li class="next">
         The longest blockchain represents the truth,<br>
-        because most voting power have been invested in it.
+        because most voting power has been invested in it.
+      </li>
+    </ul>
+  </div>
+
+  <div class="slide" id="bitcoin">
+    <h2>
+      In Bitcoin, nodes cast votes<br>
+      by spending computational power.
+    </h2>
+    <figure class="cover width margin">
+      <img src="images/blockchain.svg" alt="">
+    </figure>
+  </div>
+
+  <div class="slide" id="bitcoin-votes">
+    <h2>
+      Since computational power is expensive,<br>
+      nodes cast their vote wisely.
+    </h2>
+    <figure class="cover width margin">
+      <img src="images/blockchain-votes.svg" alt="">
+    </figure>
+  </div>
+
+  <div class="slide" id="bitcoin-result">
+    <h2>
+      This leads to a distributed ledger<br>
+      with consensus over transactions.
+    </h2>
+    <ul>
+      <li class="next">
+        Nodes receive a reward for<br>
+        computing the next valid block <em>(“mining”)</em>.
+        <ul>
+          <li class="next">incentive to create valid blocks</li>
+          <li class="next">incentive to build on a valid chain</li>
+          <li class="next">incentive to build on the longest chain</li>
+        </ul>
+      </li>
+      <li class="next">
+        If more than 50% of CPU power is with honest nodes,<br>
+        voting fairly maximizes the expected reward.
+      </li>
+      <li class="next">
+        Other ledger types use different proof-of-work.
       </li>
     </ul>
   </div>
