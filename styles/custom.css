@@ -27,3 +27,10 @@ p.venue {
 .slide.toc h2 {
   font-size: 1.04em;
 }
+
+#funding {
+  padding-top: 6em;
+}
+#funding p:before {
+  content: "– ";
+}
