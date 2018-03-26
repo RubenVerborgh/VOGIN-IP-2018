@@ -23,3 +23,7 @@ p.venue {
 .slide q {
   font-style: italic;
 }
+
+.slide.toc h2 {
+  font-size: 1.04em;
+}
