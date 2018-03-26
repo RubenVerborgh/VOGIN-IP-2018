@@ -35,6 +35,15 @@ p.venue {
   content: "– ";
 }
 
+.slide.no-blockchain h2 {
+  font-size: 3em;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
+  margin-top: 2em;
+}
+
 dt {
   color: #453688;
 }
