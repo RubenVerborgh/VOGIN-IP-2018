@@ -35,6 +35,15 @@ p.venue {
   content: "– ";
 }
 
+h2.dark {
+  color: white;
+  text-shadow:
+    -1px -1px 0 #453688,
+     1px -1px 0 #453688,
+    -1px  1px 0 #453688,
+     1px  1px 0 #453688;
+}
+
 #purpose p {
   font-weight: bold;
   font-size: 1.2em;
