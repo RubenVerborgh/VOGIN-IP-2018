@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>A Linked Data triple</title>
+  <link rel="stylesheet" href="../styles/vis.css">
+  <script src="../scripts/vis.custom.min.js"></script>
+</head>
+<body>
+<script>
+var graph = new vis.Network(
+  document.body,
+  {
+    nodes: [
+      { id: 'voginip', label: 'ex:VOGIN-IP', title: 'https://vogin-ip-lezing.net/programma-2018/#event', x: 10, y: 1 },
+      { id: 'amsterdam', label: 'dbr:Amsterdam', title: 'http://dbpedia.org/resource/Amsterdam', x: 40, y: 30 },
+    ],
+    edges: [
+      { from: 'voginip', to: 'amsterdam', label: 'schema:location', title: 'http://schema.org/location' },
+    ],
+  },
+  {
+    nodes: {
+      color: '#453688',
+      font: { color: 'white', face: 'Open Sans' },
+      borderWidth: 0,
+    },
+    edges: {
+      color: '#453688',
+      font: { align: 'middle', face: 'Open Sans' },
+      arrows: { to: { scaleFactor: 0.5 }, },
+    },
+    interaction: { tooltipDelay: 0 },
+  });
+graph.once('stabilized', function () { graph.moveTo({ scale: 3 }); });
+</script>
+</body>
+</html>

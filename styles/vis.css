@@ -1,0 +1,26 @@
+@font-face{font-family:'Open Sans';src:local("Open Sans"),local("OpenSans"),url(../fonts/OpenSans.woff2) format("woff2"),url(../fonts/OpenSans.woff) format("woff")}@font-face{font-weight:700;font-family:'Open Sans';src:local("Open Sans Bold"),local("OpenSans-Bold"),url(../fonts/OpenSans.Bold.woff2) format("woff2"),url(../fonts/OpenSans.Bold.woff) format("woff")}@font-face{font-style:italic;font-family:'Open Sans';src:local("Open Sans Italic"),local("OpenSans-Italic"),url(../fonts/OpenSans.Italic.woff2) format("woff2"),url(../fonts/OpenSans.Italic.woff) format("woff")}@font-face{font-style:italic;font-weight:700;font-family:'Open Sans';src:local("Open Sans Bold Italic"),local("OpenSans-BoldItalic"),url(../fonts/OpenSans.Bold.Italic.woff2) format("woff2"),url(../fonts/OpenSans.Bold.Italic.woff) format("woff")}@font-face{font-weight:300;font-family:'Open Sans';src:local("Open Sans Light"),local("OpenSans-Light"),url(../fonts/OpenSans.Light.woff2) format("woff2"),url(../fonts/OpenSans.Light.woff) format("woff")}@font-face{font-family:'Source Code Pro';src:local("Source Code Pro"),local("SourceCodePro-Regular"),url(../fonts/SourceCodePro.woff2) format("woff2"),url(../fonts/SourceCodePro.woff) format("woff")}@font-face{font-weight:700;font-family:'Source Code Pro';src:local("Source Code Pro Bold"),local("SourceCodePro-Bold"),url(../fonts/SourceCodePro.Bold.woff2) format("woff2"),url(../fonts/SourceCodePro.Bold.woff) format("woff")}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.vis-network-tooltip {
+  position: absolute;
+  visibility: hidden;
+  padding: 2px 10px;
+  white-space: nowrap;
+
+  font-family: 'Open Sans';
+  font-size: 24px;
+  color: #453688;
+  background: rgba(255, 255, 255, 0.9);
+
+  border-radius: 10px;
+  border: 1px solid #453688;
+
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  pointer-events: none;
+}

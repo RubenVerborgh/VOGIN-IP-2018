@@ -64,3 +64,10 @@ h2.dark {
 dt {
   color: #453688;
 }
+
+iframe.graph {
+  width: 1024px;
+  height: 492px;
+  margin: -30px -60px;
+  overflow: hidden;
+}
